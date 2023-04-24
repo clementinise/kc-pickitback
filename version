@@ -1,3 +1,7 @@
+<1.1>
+- New Config option called **PreventIfAlreadyEquipped**: "Prevent players from picking up hats/glasses if they already have one on"
+- Dropped items should now appear at the exact same coordinates for every client
+- Fixed rare occurrences where hats/glasses would drop for no reason
 <1.0.1>
 - Fixed qb-target not working as intended
 - Added qtarget as requested
