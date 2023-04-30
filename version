@@ -4,6 +4,7 @@
 - Target icon can now be edited with Config.Icon
 - Improved performance when there are a large number of dropped items
 - Updated all debug prints for easier reading/understanding
+- Helmets now also work as intended
 - Fixed some inconsistencies
 <1.1>
 - New Config option called **PreventIfAlreadyEquipped**: "Prevent players from picking up hats/glasses if they already have one on"
