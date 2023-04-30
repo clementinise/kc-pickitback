@@ -1,3 +1,10 @@
+<1.2>
+- New Config option called PreventItemPickupByGender: "Prevent players from picking up items if their character's gender does not match the item's designated gender (This is a short-term solution to avoid mismatch when picking up hats/glasses due to the game having different IDs per gender)"
+- New Config option called SendToAllPlayers: "Should the event be sent to all players or only 'active' physical players known to the client? (I recommend setting this to false if you have a 30+ player server, but it may result in worse sync for far away players)"
+- Target icon can now be edited with Config.Icon
+- Improved performance when there are a large number of dropped items
+- Updated all debug prints for easier reading/understanding
+- Fixed some inconsistencies
 <1.1>
 - New Config option called **PreventIfAlreadyEquipped**: "Prevent players from picking up hats/glasses if they already have one on"
 - Dropped items should now appear at the exact same coordinates for every client
