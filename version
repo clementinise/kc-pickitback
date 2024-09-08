@@ -1,3 +1,19 @@
+<2.0>
+- The logic behind the synchronization of dropped accessories has been rewritten
+- Reduced the number of redundant native calls 
+- No more people turning invisible
+- Fixed and improved networking events
+- Added more debugging
+- Massively reduce burden on Entity state bags
+- Improved synchronization when the player gets hit, no more accessories disappearing from the player's head only to pop almost half a second later
+- If the player is interrupted (ragdoll, death, shot, etc) while picking up, he will drop what he is picking
+- Added a default interaction system for servers that do not use Target scripts or want something a bit different
+- Players can no longer pick up the same accessory at the same time
+- New pick up animation, respective for glasses and hat that properly shows (For local and all clients) the player putting the respective accessory on his face
+- Inverse Kinematics have been added, the player will now properly reach for the dropped accessory if it's too far or too close instead of grabbing nothing on the ground
+- Being pushed will no longer knock the props off
+- Being ran over (20km/h+) will now knock the props off
+- Added an 'isPickingUp' export because... why not?
 <1.3.1>
 - Fixed issue with the native 'GetEntityArchetypeName'
 - Added a new file called 'custom_export.lua' with examples and explanations if you ever want to use a system other than target
