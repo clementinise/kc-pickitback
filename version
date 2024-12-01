@@ -1,3 +1,12 @@
+<2.1>
+- Fixed issue where melee hits weren't consistently registering
+- Reworked damage detection system to be more reliable
+- New translations added for all debug messages
+- Removed redundant player health tracking
+- Streamlined player interruption checks
+- Improved entity validation system
+- Fixed issue with accessory synchronization during pickup
+- Better error handling for damage events
 <2.0>
 - The logic behind the synchronization of dropped accessories has been rewritten
 - Reduced the number of redundant native calls 
