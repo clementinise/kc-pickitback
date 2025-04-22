@@ -1,3 +1,9 @@
+<2.1.1>
+- Fixed recurring crashes by implementing improved entity validation
+- Added timeout protection to prevent infinite loops
+- Enhanced synchronization of dropped accessories between players
+- Improved error handling for entity state access
+- Added automatic cleanup of invalid entity references
 <2.1>
 - Fixed issue where melee hits weren't consistently registering
 - Reworked damage detection system to be more reliable
