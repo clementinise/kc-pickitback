@@ -1,3 +1,5 @@
+<2.1.2>
+- Fixed a crash that could occur when opening the pause menu
 <2.1.1>
 - Fixed recurring crashes by implementing improved entity validation
 - Added timeout protection to prevent infinite loops
