@@ -1,3 +1,9 @@
+<2.1.5>
+- Added new event `kc-pickitback:dropAccessories` to manually trigger the drop logic from other scripts
+- Optimized look-at detection (faster math, fewer per-frame calls)
+- Optimized server-side player handling for pickups
+- Cached frequently-read config values to reduce repeated work
+- Minor cleanup and code tidying
 <2.1.4>
 - Added compatibility with ox_target cursor-based forks
 - Added custom callback functions: OnEquippingAccessory and OnDroppingAccessories in custom_functions.lua
